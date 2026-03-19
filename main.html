@@ -33,8 +33,12 @@
             <div class="side-nav">
                 <img src="./Images/Gemini_Generated_Image_eqtdxweqtdxweqtd.png" alt="Logo">
                 <nav>
-                    <a href="main.html">Main</a>
+                    <a href="main.html"><i class="fa-solid fa-house"></i> Main</a>
+                    <a href="help.html"><i class="fa-regular fa-message"></i> Help</a>
+                    <a href="#"><i class="fa-solid fa-share"></i> Share Task</a>
+                    <a href="#"><i class="fa-solid fa-users"></i> Invite Friends</a>
                 </nav>
+
             </div>
 
             <!-- Inside Content -->
@@ -51,13 +55,15 @@
                         </p>
                     </div>
                     <div class="add-task">
-                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-plus" onclick="savetask()"></i>
                         <input type="text" id="input" placeholder="Add Task">
                     </div>
                     <div class="button">
                         <button class="download-btn">
                             Download
                         </button>
+                        <i class="fa-regular fa-bell"></i>
+                        <i class="fa-solid fa-circle-user"></i>
                     </div>
                 </div>
 
