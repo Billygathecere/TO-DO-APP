@@ -15,6 +15,8 @@
     --content-color: radial-gradient( circle farthest-corner at right, #ae48c3, #320b43);
     --add-task-color: #ad9e9e5d;
     --download-btn: #948c8c91;
+    --greeting-color: #6bf56bb1;
+    --span-color: #eee5e5c0;
     --input-font: 'Iosevka Charon Mono';
 }
 
@@ -162,6 +164,19 @@ input::placeholder{
 .download-btn:hover{
     background: white;
 }
+
+/* Span */
+span{
+    font-family: var(--input-font);
+    font-size: 30px;
+    color: var(--span-color);
+}
+
+/* Greeting */
+.greeting{
+    color: var(--greeting-color);
+}
+
 /* Uncompleted task */
 .Uncompleted-task{
     border: 1px solid gray;
