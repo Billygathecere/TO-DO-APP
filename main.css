@@ -173,6 +173,7 @@ input::placeholder{
     border: solid 1px gray;
     padding: 20px;
     border-radius: 10px;
+    overflow: auto;
     background: linear-gradient(75deg, rgba(192, 181, 181, 0.313), rgba(128, 128, 128, 0.712));
 
     /* Inner positioning */
@@ -277,6 +278,7 @@ span{
     height: 40vh;
     border-radius: 10px;
     padding: 20px;
+    overflow: auto;
     background: linear-gradient(120deg, rgba(204, 167, 167, 0.806), rgba(255, 0, 0, 0.526));
 }
 
@@ -331,6 +333,7 @@ span{
     border: 1px solid gray;
     border-radius: 10px;
     padding: 30px;
+    overflow: auto;
     background: linear-gradient(85deg, rgba(50, 229, 62, 0.551), rgba(6, 139, 24, 0.797));
 }
 
@@ -384,6 +387,7 @@ span{
     width: 40vh;
     border-radius: 10px;
     padding: 30px;
+    overflow: auto;
     background: linear-gradient(185deg, grey, rgba(255, 238, 0, 0.568));
 }
 
@@ -425,6 +429,7 @@ span{
     border: solid 1px gray;
     border-radius: 10px;
     padding: 30px;
+    overflow: auto;
     background: linear-gradient(85deg, rgba(135, 207, 235, 0.544), rgba(0, 0, 255, 0.632));
 }
 
