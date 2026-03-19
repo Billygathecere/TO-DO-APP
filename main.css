@@ -173,6 +173,7 @@ input::placeholder{
     border: solid 1px gray;
     padding: 20px;
     border-radius: 10px;
+    background: linear-gradient(75deg, rgba(192, 181, 181, 0.313), rgba(128, 128, 128, 0.712));
 
     /* Inner positioning */
     display: flex;
@@ -276,6 +277,7 @@ span{
     height: 40vh;
     border-radius: 10px;
     padding: 20px;
+    background: linear-gradient(120deg, rgba(204, 167, 167, 0.806), rgba(255, 0, 0, 0.526));
 }
 
 .Uncompleted-task header{
@@ -329,6 +331,7 @@ span{
     border: 1px solid gray;
     border-radius: 10px;
     padding: 30px;
+    background: linear-gradient(85deg, rgba(50, 229, 62, 0.551), rgba(6, 139, 24, 0.797));
 }
 
 .completed-task header{
@@ -381,6 +384,7 @@ span{
     width: 40vh;
     border-radius: 10px;
     padding: 30px;
+    background: linear-gradient(185deg, grey, rgba(255, 238, 0, 0.568));
 }
 
 .active-task h3{
@@ -421,6 +425,7 @@ span{
     border: solid 1px gray;
     border-radius: 10px;
     padding: 30px;
+    background: linear-gradient(85deg, rgba(135, 207, 235, 0.544), rgba(0, 0, 255, 0.632));
 }
 
 .analysis header{
@@ -438,4 +443,25 @@ span{
     font-size: 25px;
     color: #8b9ab2;
     margin-right: 10px;
+}
+
+.analysis ul{
+    margin: 20px 20px;
+    list-style-type: none;
+}
+
+.analysis li {
+    display: flex;
+    align-items: center;
+    margin: 20px 0 20px;
+    width: 34vh;
+    height: 5vh;
+    border-bottom: solid grey 2px;
+    padding: 20px 30px;
+    color: black;
+    position: relative;
+}
+
+.analysis li i{
+    margin-right: 20px;
 }
