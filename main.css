@@ -185,6 +185,12 @@ input::placeholder{
     align-items: center;
 }
 
+.task-list h3{
+    font-family: var(--input-font);
+    color: rgb(115, 210, 21);
+    font-size: 25px;
+}
+
 .task-list .fa-list-check{
     color: #8b9ab2;
     font-size: 25px;
@@ -205,8 +211,8 @@ input::placeholder{
     position: absolute;
     top: 20%;
     left: 0;
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     cursor: pointer;
     border-radius: 20px;
 }
@@ -219,7 +225,7 @@ input::placeholder{
     height: 5vh;
     background: #f5ecec68;
     border-radius: 10px;
-    padding: 10px 30px;
+    padding: 20px 30px;
     color: black;
     position: relative;
 }
@@ -277,10 +283,43 @@ span{
     align-items: center;
 }
 
+.Uncompleted-task h3{
+    font-family: var(--input-font);
+    color: rgb(249, 36, 47);
+    font-size: 25px;
+}
+
 .Uncompleted-task i{
     margin-right: 10px;
     color: #e6d9d99c;
     font-size: 20px;
+}
+
+.Uncompleted-task li::before{
+    content:"";
+    background-image: url(./Images/toggle-off-solid.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.Uncompleted-task li {
+    display: flex;
+    align-items: center;
+    margin: 20px 0 20px;
+    width: 50vh;
+    height: 5vh;
+    background: #f5ecec68;
+    border-radius: 10px;
+    padding: 20px 30px;
+    color: black;
+    position: relative;
 }
 
 /* Completed task */
@@ -297,10 +336,43 @@ span{
     align-items: center;
 }
 
+.completed-task h3{
+    font-family: var(--input-font);
+    color: rgb(71, 227, 71);
+    font-size: 25px;
+}
+
 .completed-task i{
     margin-right: 10px;
     color: #e6d9d99c;
     font-size: 25px;
+}
+
+.completed-task li::before{
+    content:"";
+    background-image: url(./Images/toggle-on-solid.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.completed-task li {
+    display: flex;
+    align-items: center;
+    margin: 20px 0 20px;
+    width: 34vh;
+    height: 5vh;
+    background: #f5ecec68;
+    border-radius: 10px;
+    padding: 20px 30px;
+    color: black;
+    position: relative;
 }
 
 /* active task */
@@ -309,6 +381,39 @@ span{
     width: 40vh;
     border-radius: 10px;
     padding: 30px;
+}
+
+.active-task h3{
+    font-family: var(--input-font);
+    color: rgb(236, 240, 45);
+    font-size: 25px;
+}
+
+.active-task li::before{
+    content:"";
+    background-image: url(./Images/toggle-off-solid.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.active-task li {
+    display: flex;
+    align-items: center;
+    margin: 20px 0 20px;
+    width: 34vh;
+    height: 5vh;
+    background: #f5ecec68;
+    border-radius: 10px;
+    padding: 20px 30px;
+    color: black;
+    position: relative;
 }
 
 /* Analysis */
@@ -321,6 +426,12 @@ span{
 .analysis header{
     display: flex;
     align-items: center;
+}
+
+.analysis h3{
+    font-family: var(--input-font);
+    color: rgb(25, 109, 244);
+    font-size: 25px;
 }
 
 .analysis .fa-chart-simple{
