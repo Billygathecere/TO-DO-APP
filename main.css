@@ -111,6 +111,20 @@ img{
     gap: 20px;
 }
 
+/* Top-right-corner */
+.top-right-corner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-right-corner i{
+    margin: auto 10px;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+}
+
 /* Adding task */
 .add-task{
     width: 50vh;
