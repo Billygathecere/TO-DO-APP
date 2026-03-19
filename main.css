@@ -467,6 +467,11 @@ span{
     position: relative;
 }
 
+.analysis li p{
+    margin-left: 100px;
+    color: rgba(54, 52, 52, 0.744);
+}
+
 .analysis li i{
     margin-right: 20px;
 }
