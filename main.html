@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do App</title>
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="main.css">
+
+    <!-- losevka Charon Mono font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Arimo:ital,wght@0,400..700;1,400..700&family=Bebas+Neue&family=Caveat:wght@400..700&family=Commissioner:wght@100..900&family=Cookie&family=Creepster&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Federant&family=Fjalla+One&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Gloria+Hallelujah&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Iosevka+Charon+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Lilita+One&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Pacifico&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+IN+Guides&family=Playwrite+NZ+Basic:wght@100..400&family=Playwrite+NZ:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Shadows+Into+Light&family=Smooch+Sans:wght@100..900&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&family=Syne:wght@400..800&family=Tapestry&family=Titan+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome Link -->
+    <script src="https://kit.fontawesome.com/1d68a8fcd4.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!-- Container -->
+    <div class="container">
+
+        <!-- To do app -->
+        <div class="app">
+
+            <!-- Side-navigation -->
+            <div class="side-nav">
+                <img src="./Images/Gemini_Generated_Image_eqtdxweqtdxweqtd.png" alt="Logo">
+                <nav>
+                    <a href="main.html">Main</a>
+                    <a href=""></a>
+                </nav>
+            </div>
+
+            <!-- Inside Content -->
+            <div class="content">
+
+                <!-- Adding Task -->
+                <div class="head" style="grid-area: box;">
+                    <div class="add-task">
+                        <i class="fa-solid fa-plus"></i>
+                        <input type="text" id="input" placeholder="Add Task">
+                    </div>
+                    <div class="button">
+                        <button>
+                            <i class="fa-thin fa-download"></i>
+                            Download
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Task List -->
+                <div class="task-list" style="grid-area: box-1;">
+                    <header>
+                        <h3>
+                            Task List
+                        </h3>
+                    </header>
+                    <ul>
+                        <li>Eating Chips</li>
+                        <li>Watching a movie</li>
+                        <li>Drawing a picture</li>
+                    </ul>
+                </div>
+
+                <!-- Active Task -->
+                <div class="active-task" style="grid-area: box-2;">
+                    <header>
+                        <h3>
+                            Active
+                        </h3>
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </header>
+                </div>
+
+                <!-- Completed Task -->
+                <div class="completed-task" style="grid-area: box-3;">
+                    <header>
+                        <h3>
+                            Completed
+                        </h3>
+                    </header>
+                    <li></li>
+                </div>
+
+                <!-- Uncompleted Task -->
+                <div class="Uncompleted-task" style="grid-area: box-4;">
+                    <header>
+                        <h3>
+                            Uncompleted
+                        </h3>
+                    </header>
+                </div>
+
+                <!-- Analysis -->
+                <div class="analysis" style="grid-area: box-5;">
+                    <header>
+                        <h3>
+                            Analysis
+                        </h3>
+                    </header>
+                    <ul>
+                        <li>Completed</li>
+                        <li>Uncompleted</li>
+                        <li>Active</li>
+                        <li>All Tasks</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- JavaScript Link -->
+    <script src="main.js"></script>
+</body>
+
+</html>
